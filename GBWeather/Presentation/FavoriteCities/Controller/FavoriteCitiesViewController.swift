@@ -10,7 +10,7 @@ import UIKit
 class FavoriteCitiesViewController: UIViewController {
 	@IBOutlet var tableView: UITableView!
 
-	let cities = ["Москва", "Краснодар", "Сочи"]
+	let cities: [String] = ["Москва", "Краснодар", "Сочи"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
